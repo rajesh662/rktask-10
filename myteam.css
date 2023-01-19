@@ -1,0 +1,181 @@
+/*----comman style-----*/
+
+:root{
+	--primary-color:#ff4f00d9;
+}
+ .head{
+	color: var(--primary-color);
+}
+.title h1{
+	font-size: 35px;
+	font-weight: 500;
+}
+
+/*----comman style-- end---*/
+
+
+/*----nav start----*/
+	.navbar{
+		padding: 0;
+	}
+	.nav-section{
+		background-color:rgb(234 175 16 / 0.55);
+		padding: 15px 0;
+	}
+
+	.navbar .navbar-nav .nav-link{
+		color: black;
+		font-size: 14px;
+	}
+	.navbar .navbar-nav .nav-link.active{
+		color: var(--primary-color);
+	}
+	.navbar .navbar-nav .nav-link:hover{
+		color: var(--primary-color);
+	}
+
+.navbar .btn{
+	background-color: var(--primary-color);
+	padding: 15px 20px;
+	border-radius: 0;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+}
+
+
+/*----nav end----*/
+
+
+/*----home start----*/
+
+.home-back{
+	background-image: url("images/home.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 100px 0;
+}
+.home-back p{
+	font-size: 20px;
+	font-weight: 500;
+	padding-bottom: 30px;
+}
+.home-back h1{
+	font-size: 60px;
+	font-weight: 500;
+	padding: 10px 0;
+}
+.home-back h6{
+	font-size: 18px;
+	font-weight:500;
+	padding-top: 20px;
+}
+.home-back .btn{
+	background-color: white;
+	border-radius: 0;
+}
+.home-back .btn:hover{
+	background-color: var(--primary-color);
+	color: white;
+	
+}
+
+
+
+
+/*----home end----*/
+
+
+/*----about start----*/
+
+.about{
+	padding: 80px 0;
+}
+
+.about-img{
+	background-image: url("images/pattern-background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.about-img img{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	margin: 30px 0;
+}
+ 
+.about-cont p{
+	font-size: 16px;
+	font-weight: 500;
+}
+.about-cont .btn{
+	padding: 10px 20px;
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 0;
+	
+}
+.about-cont .btn.active{
+	background-color: var(--primary-color);
+	color: white;
+}
+.about-cont .btn:hover{
+	background-color: var(--primary-color);
+	color: white;
+}
+
+
+/*----about end----*/
+
+
+
+/*----speaker start----*/
+.speaker{
+	background-image: url("images/spaeker-background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: fixed;
+	padding: 100px 0;
+}
+.speaker .title p{
+	font-size: 16px;
+	padding-top: 30px;
+	font-weight: 500;
+}
+.speaker .card{
+	border-radius: 0;
+	background-color:#eae9ec;
+}
+
+.speaker .card img{
+	padding: 5px;
+}
+.speaker .card-title{
+	font-size: 22px;
+	font-weight: 500;
+}
+.speaker .card-text{
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.card-icon{
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: #ff4f00a8;
+	opacity: 0;
+	transition: 0.3s
+}
+
+.card-imgicon:hover .card-icon{
+	opacity: 1;
+		transition: 0.3s;
+		transform:translateX;
+}
+
+/*----speaker end----*/

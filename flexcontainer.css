@@ -1,0 +1,743 @@
+			
+				*{ 
+					margin: 0;
+					padding: 0;
+					box-sizing: border-box;
+					
+				}
+
+	.container{ width: 100%;
+				margin: 0 auto;
+				
+	}
+			
+/*			
+	.row{  display: flex;
+           
+		   
+		   
+	}
+					
+	.row> *{ width: 100%;
+				
+							 
+					}
+					
+					.col-lg-1{
+						width: 8.33%
+					}	
+					.col-lg-2{ 
+					width: 16.66%
+					}	
+					.col-lg-3{ 
+					width: 25%
+					}	
+					.col-lg-4{ 
+					width: 33.33%
+					}	
+					.col-lg-5{ 
+					width: 41.66%
+					}	
+					.col-lg-6{ 
+					width: 50%
+					}	
+					.col-lg-7{ 
+					width: 58.33%
+					}	
+					.col-lg-8{
+						width: 66.66%
+					}	
+					.col-lg-9{
+						width: 75%
+					}	
+					.col-lg-10{
+						width: 83.33%
+					}	
+					.col-lg-11{ 
+					width: 91.66%
+					}	
+					.col-lg-12{ 
+					width: 100%
+					}	*/
+					
+					
+	/*------ flex-direction column	-------*/
+
+
+		h1 { text-align: center;
+				color: white;
+				font-size: 50px;
+		}	
+
+				.row{
+				
+					display:flex;
+					flex-direction: column;
+
+				}		
+		.flex-d-col{
+					background-color: green;
+		}
+		
+			.col-lg-3{ 
+					width: 25%;
+					}
+					
+	.col-lg-3 .dcbox{
+						background-color: orange;
+						height: 250px;
+						border: 2px solid white;
+	}	
+	
+	
+	/*------ flex-direction column-reverse	-------*/
+	
+					.rowcr{
+				
+					display:flex;
+					flex-direction: column-reverse;
+
+				}		
+		.flex-d-colcr{
+					background-color: yellow;
+		}
+		
+			.col-lg-3{ 
+					width: 25%
+					}
+					
+	.col-lg-3 .dcboxcr{
+						background-color: orange;
+						height: 250px;
+						border: 2px solid white;
+	}	
+	
+	
+	/*------ flex-direction row	-------*/
+	
+	.rowr{
+				
+					display:flex;
+					flex-direction: row;
+
+
+				}		
+.flex-d-col-row{
+					background-color: green;
+		}
+		
+			.col-lg-3{ 
+					width: 25%
+					}
+					
+	.col-lg-3 .dcboxr{
+						background-color: orange;
+						height: 250px;
+						border: 2px solid white;
+	}	
+	
+	
+	/*------ flex-direction row-reverse	-------*/
+	
+	
+	
+	.rowrr{
+				
+					display:flex;
+					flex-direction: row-reverse;
+
+
+				}		
+.flex-d-col-row-reverse{
+					background-color: yellow;
+		}
+		
+			.col-lg-3{ 
+					width: 25%
+					}
+					
+	.col-lg-3 .dcboxrr{
+						background-color: orange;
+						height: 250px;
+						border: 2px solid white;
+	}	
+	
+	
+	/*-----flex-rwap-----------*/
+	
+	
+	.wrow{
+			display: flex;
+			flex-wrap: wrap;	
+	}	
+.flex-wrap{
+					background-color: green;
+		}
+		
+		.col-lg-2{ 
+					width: 16.66%
+					}
+			
+			
+					
+	.col-lg-2 .wbox{
+						background-color: orange;
+						height: 250px;
+						border: 2px solid white;
+						
+	}	
+	
+	
+	/*-----flex-norwap-----------*/
+	
+	
+	.norow{
+			display: flex;
+			flex-wrap: nowrap;
+			
+	}	
+.flex-nowrap{
+					background-color: yellow;
+		}
+		
+		.col-lg-2{ 
+					width: 16.66%
+					}
+			
+			
+					
+	.col-lg-2 .nobox{
+						background-color: orange;
+						height: 250px;
+						border: 2px solid white;
+						
+	}	
+	
+	/*-----flex-norwap-----------*/
+	
+	.flex-wrap-reverse{
+						background-color: green;
+						
+	}	
+	
+	.wrowr{
+		    display: flex;
+			flex-wrap: wrap-reverse;
+			
+	}	
+	
+	
+	/*---flex-flow---*/
+	
+	
+	.flex-flow{
+		
+				background-color: yellow;
+				
+	}
+
+
+	.rowf{
+			display: flex;
+			flex-flow: row-reverse wrap;	
+			
+	}	
+	
+	
+	
+	
+	h1{
+	  color: black;
+	  font-size: 50px;
+	  text-align: center;
+	  
+  } 
+
+/*----justify-center---*/
+
+
+	.jcrow{
+		display: flex;
+		justify-content: center;
+	}
+	
+				
+    .justify-center{
+				background-color: green;
+	}
+		
+	
+	 .jcbox{
+						background-color: orange;
+						width: 200px;
+						height: 250px;
+						border: 2px solid white;
+						
+	}	
+	/*----justify-content-end---*/	
+	 
+	 
+	 .justify-end{
+						background-color: yellow;
+						
+	}
+
+
+	
+	
+				
+	
+	.jerow { 
+			display:flex;
+			justify-content:flex-end;
+	}
+		
+	/*----justify-content-start---*/		
+	
+	
+	.justify-start{
+						background-color: green;
+						
+	}
+
+
+	
+	
+				
+	
+	.jsrow { 
+			display:flex;
+			justify-content:flex-start;
+	}
+	
+	/*----justify-content-space-around---*/
+	
+	.justify-space-around{
+						background-color: yellow;			
+	}	
+	.jsarow { 
+			display: flex;
+			justify-content: space-around;
+	}
+	
+	/*----justify-content-space-between--*/
+	
+	
+	.justify-space-between{
+						background-color: green;
+						
+	}
+
+	
+	.jsbrow { 
+			display: flex;
+			justify-content: space-between;
+	}
+	
+	/*----align-items-center--*/
+	
+	.align-items-center{
+		
+					background-color: yellow;
+					
+	}
+
+		.row{
+				display: flex;
+				align-items: center;
+				
+		}	
+		
+		.box1{
+						background-color: orange;
+						width: 200px;
+						height: 350px;
+						border: 2px solid white;
+						
+		}
+.box2{
+						background-color: orange;
+						width: 200px;
+						height: 250px;
+						border: 2px solid white;
+}
+
+.box3{
+						background-color: orange;
+						width: 200px;
+						height: 250px;
+						border: 2px solid white;
+}		
+
+/*----align-items-start--*/				
+
+
+		.align-items-start{
+					background-color: green;
+		}
+		
+		.row1{ 
+				display: flex;
+				align-items: start;
+		}	
+		
+		/*----align-items-end--*/				
+
+
+		.align-items-end{
+					background-color: yellow;
+		}
+		
+		.row2{ 
+				display: flex;
+				align-items: end;
+		}	
+		
+		
+		/*----align-items-stretch--*/				
+
+
+		.align-items-stretch{
+					background-color: yellow;
+		}
+		
+		.row3{ 
+				display: flex;
+				align-items: stretch;
+		}	
+		
+		.boxs1{
+						background-color: orange;
+						width: 200px;
+						
+						border: 2px solid white;
+}		
+
+.boxs2{
+						background-color: orange;
+						width: 200px;
+						height: 250px;
+						
+						
+						border: 2px solid white;
+}		
+
+.boxs3{
+						background-color: orange;
+						width: 200px;
+						height: 250px;
+						border: 2px solid white;
+}		
+
+
+/*----align-items-baseline--*/				
+
+
+		.align-items-baseline{
+					background-color: green;
+		}
+		
+		.row4{ 
+				display: flex;
+				align-items: baseline;
+		}	
+		
+		.boxsp1{
+						background-color: orange;
+						width: 200px;
+						border: 2px solid white;
+}		
+
+.boxsp2{
+						background-color: orange;
+						width: 200px;
+						padding-top: 50px;
+						border: 2px solid white;
+}		
+
+.boxsp3{
+						background-color: orange;
+						width: 200px;
+						
+						border: 2px solid white;
+}
+
+
+/*----align-content-start-*/				
+
+
+		
+		.align-content-start{
+					background-color: yellow;
+		}
+		
+		.rowc1{ 
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: flex-start;
+				align-content: flex-start;
+		}	
+		
+		.boxc1{
+						background-color: orange;
+						width: 500px;
+						height:250px;
+						border: 2px solid white;
+}		
+
+.boxc2{
+						background-color: orange;
+						width: 1000px;
+						height: 250px;
+						border: 2px solid white;
+}		
+
+.boxc3{
+						background-color: orange;
+						width: 500px;
+						height: 250px;
+						border: 2px solid white;
+}
+
+
+/*----align-content-end-*/				
+
+
+		
+		.align-content-end{
+					background-color: green;
+		}
+
+		.raj1{
+				display: flex;
+				flex-wrap:wrap;
+				justify-content: end;
+				align-content: end;
+				
+		}		
+			
+		.box11{
+						background-color: orange;
+						width: 1000px;
+						height:250px;
+						border: 2px solid white;
+}		
+
+.box22{
+						background-color: orange;
+						width: 200px;
+						height: 250px;
+						border: 2px solid white;
+}		
+
+.box33{
+						background-color: orange;
+						width: 200px;
+						height: 250px;
+						border: 2px solid white;
+}
+
+/*----align-content-center-*/				
+
+
+		
+		.align-content-center{
+					background-color: yellow;
+		}
+
+		.raj2{
+				display: flex;
+				flex-wrap:wrap;
+				justify-content: center;
+				align-content: center;
+				
+		}
+		
+		
+		
+		/*----align-content--*/				
+
+
+		
+		.align-content-center{
+					background-color: yellow;
+		}
+
+		.raj2{
+				display: flex;
+				flex-wrap:wrap;
+				justify-content: center;
+				align-content: center;
+				
+		}
+		
+		
+		/*----align-content-between--*/				
+
+
+		
+		.align-content-between{
+					background-color: green;
+		}
+
+		.raj3{
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				align-content: space-between;
+				
+		}
+		
+		
+		/*----align-content-around--*/				
+
+
+		
+		.align-content-around{
+					background-color: yellow;
+		}
+
+		.raj4{
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-around;
+				align-content: space-around;
+				
+		}
+		
+		
+		
+		
+	h1{
+		color: black;
+		font-size: 50px;
+		text-align: center;
+	}		
+	
+	
+	
+	/*----order----*/
+		.rowrk{
+				display: flex;
+	
+				background-color: red;
+
+			}
+					
+		.box{
+						background-color: orange;
+						width: 200px;
+						height: 250px;
+						border: 2px solid white;
+						
+	}	
+	
+		.order1{
+				order:4;
+			}	
+		
+		.order2{
+				order:1;
+			}
+			
+.order3{
+				order:2;
+			}
+			
+.order4{
+				order:3;
+			}
+			
+			
+			/*----flex-grow----*/
+			
+			
+	.flex-grow1{
+				flex-grow: 1;
+	}	
+	
+	.flex-grow4{
+				flex-grow: 2;
+	}	
+	
+	.boxba{
+						background-color: orange;
+						height: 250px;
+						
+						border: 2px solid white;
+						
+	}	
+	
+	/*----flex-shrink----*/
+			
+			
+	.flex-sh3{
+				flex-shrink: 7;
+	}	
+	
+	.boxsh{
+						background-color: orange;
+						width: 300px;
+						height: 250px;
+						border: 2px solid white;
+						
+	}	
+	
+	.boxsh1{
+						background-color: gray;
+						width: 200px;
+						height: 250px;
+						border: 2px solid white;
+						
+	}	
+	
+	/*----flex-basis----*/
+	
+	.flex-ba2{
+				flex-basis: 250px;
+	}	
+	
+	.boxba{
+						background-color: orange;
+						height: 250px;
+						width: 50px;
+						border: 2px solid white;
+						
+	}	
+	
+	
+	/*----flex-flex----*/
+	
+	.flex-fl3{
+				flex: 0 0 500px;
+	}	
+	
+	.boxba{
+						background-color: orange;
+						height: 250px;
+						width: 50px;
+						border: 2px solid white;
+						
+	}	
+	
+	
+/*----align- self---*/
+
+       .flex{
+		   background-color: yellow;
+		   display: flex;
+		   height: 600px;
+	   }
+	
+	.self-box{
+						background-color: orange;
+						width: 200px;
+						height: 250px;
+						border: 2px solid white;
+						
+	}	
+	.self4{
+		align-self: end;
+	}
+		
+		
